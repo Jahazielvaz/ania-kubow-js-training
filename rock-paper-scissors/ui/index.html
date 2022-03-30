@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="/static/style.css">
+  </head>
+  <body>
+    <section id="user-computer-choices">
+      <h2>Computer Choice: <span id="computer-choice"></span></h2>
+      <h2>User Choice: <span id="user-choice"></span></h2>
+    </section>
+    <h2>Result: <span id="result"></span></h2>
+
+    <section id="selection-buttons-container">
+      <button class="selection-buttons" id="rock">Rock</button>
+      <button class="selection-buttons" id="paper">Paper</button>
+      <button class="selection-buttons" id="scissors">Scissors</button>
+    </section>
+
+    <button onclick="resetButtonEvent()" id="reset-button">New Round</button>
+
+    <section id="scores">
+      <h2>User Score: <span id="user-score"></span></h2>
+      <h2>Computer Score: <span id="computer-score"></span></h2>
+    </section>
+
+    <h2 id="round-results"></h2>
+    <script src="./app.js" charset="utf-8"></script>
+  </body>
+</html>
